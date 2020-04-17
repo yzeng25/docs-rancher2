@@ -31,7 +31,7 @@ title: Google GCP 快速部署
 
    请参阅[快速启动说明](https://github.com/rancher/quickstart)和 [GCP 快速启动说明](https://github.com/rancher/quickstart/tree/master/gcp)了解更多信息。
 
-   建议包括：
+   建议修改的参数包括：
 
    - `gcp_region` - Google GCP 区域，默认的 Google GCP 区域 不一定是距离您最近的区域，建议选择距离您最近的区域，降低延迟。
    - `prefix` - 全部创建资源的前缀。

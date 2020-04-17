@@ -35,6 +35,8 @@ title: Azure 快速部署
 
    请参阅[快速启动说明](https://github.com/rancher/quickstart)和 [Azure 快速启动说明](https://github.com/rancher/quickstart/tree/master/azure)了解更多信息。
 
+   建议修改的参数包括：
+
    - `azure_location` - Microsoft Azure 区域，默认的 Microsoft Azure 区域不一定是距离您最近的区域，建议选择距离您最近的区域，降低延迟。
    - `prefix` - 全部创建资源的前缀。
    - `instance_type` - 使用的计算实例规格，最小规格为`Standard_DS2_v2`。如果在预算范围内，建议使用`Standard_DS2_v3`或`Standard_DS3_v2`。

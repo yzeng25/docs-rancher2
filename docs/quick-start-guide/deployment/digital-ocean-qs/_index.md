@@ -30,7 +30,7 @@ title: DigitalOcean 快速部署
 
    请参阅[快速启动说明](https://github.com/rancher/quickstart)和 [DO 快速启动说明](https://github.com/rancher/quickstart/tree/master/do)了解更多信息。
 
-   建议包括：
+   建议修改的参数包括：
 
    - `do_region` - DigitalOcean 区域，默认的 DigitalOcean 区域不一定是距离您最近的区域，建议选择距离您最近的区域，降低延迟。
    - `prefix` - 全部创建资源的前缀。
