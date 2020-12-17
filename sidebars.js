@@ -302,118 +302,47 @@ module.exports = {
             },
         ],
         备份和恢复指南: [
-            "rancher2/backups/_index",
+            "rancher2/backups/2.0-2.4/_index",
             {
                 type: "category",
-                label: "2.0-2.4",
+                label: "备份",
                 items: [
-                    {
-                        type: "category",
-                        label: "备份",
-                        items: [
-                            "rancher2/backups/2.0-2.4/_index",
-                            "rancher2/backups/2.0-2.4/k3s-backups/_index",
-                            "rancher2/backups/2.0-2.4/ha-backups/_index",
-                            "rancher2/backups/2.0-2.4/ha-backups/_index",
-                            "rancher2/backups/2.0-2.4/single-node-backups/_index",
-                        ],
-                    },
-                    {
-                        type: "category",
-                        label: "恢复",
-                        items: [
-                            "rancher2/backups/2.0-2.4/restorations/_index",
-                            "rancher2/backups/2.0-2.4/restorations/k3s-restoration/_index",
-                            "rancher2/backups/2.0-2.4/restorations/ha-restoration/_index",
-                            "rancher2/backups/2.0-2.4/restorations/single-node-restoration/_index",
-                        ],
-                    },
+                    "rancher2/backups/2.0-2.4/_index",
+                    "rancher2/backups/2.0-2.4/k3s-backups/_index",
+                    "rancher2/backups/2.0-2.4/ha-backups/_index",
+                    "rancher2/backups/2.0-2.4/ha-backups/_index",
+                    "rancher2/backups/2.0-2.4/single-node-backups/_index",
                 ],
             },
             {
                 type: "category",
-                label: "2.5",
+                label: "恢复",
                 items: [
-                    "rancher2/backups/2.5/_index",
-                    "rancher2/backups/2.5/back-up-rancher/_index",
-                    {
-                        type: "category",
-                        label: "Rancher备份配置参考",
-                        items: [
-                            "rancher2/backups/2.5/configuration/_index",
-                            "rancher2/backups/2.5/configuration/back-up-config/_index",
-                            "rancher2/backups/2.5/configuration/restore-config/_index",
-                            "rancher2/backups/2.5/configuration/storage-config/_index",
-                        ],
-                    },
-                    {
-                        type: "category",
-                        label: "Docker安装的Rancher的备份和还原",
-                        items: [
-                            "rancher2/backups/2.5/docker-installs/_index",
-                            "rancher2/backups/2.5/docker-installs/docker-backups/_index",
-                            "rancher2/backups/2.5/docker-installs/docker-restores/_index",
-                        ],
-                    },
-                    "rancher2/backups/2.5/examples/_index",
-                    "rancher2/backups/2.5/migrating-rancher/_index",
-                    "rancher2/backups/2.5/restoring-rancher/_index",
+                    "rancher2/backups/2.0-2.4/restorations/_index",
+                    "rancher2/backups/2.0-2.4/restorations/k3s-restoration/_index",
+                    "rancher2/backups/2.0-2.4/restorations/ha-restoration/_index",
+                    "rancher2/backups/2.0-2.4/restorations/single-node-restoration/_index",
                 ],
             },
         ],
         最佳实践: [
-            {
-                type: "category",
-                label: "2.0-2.4",
-                items: [
-                    "rancher2/best-practices/2.0-2.4/_index",
-                    "rancher2/best-practices/2.0-2.4/deployment-strategies/_index",
-                    "rancher2/best-practices/2.0-2.4/deployment-types/_index",
-                    "rancher2/best-practices/2.0-2.4/containers/_index",
-                    "rancher2/best-practices/2.0-2.4/management/_index",
+            "rancher2/best-practices/2.0-2.4/_index",
+            "rancher2/best-practices/2.0-2.4/deployment-strategies/_index",
+            "rancher2/best-practices/2.0-2.4/deployment-types/_index",
+            "rancher2/best-practices/2.0-2.4/containers/_index",
+            "rancher2/best-practices/2.0-2.4/management/_index",
 
-                    {
-                        type: "category",
-                        label: "调优",
-                        items: [
-                            "rancher2/best-practices/2.0-2.4/optimize/os/_index",
-                            "rancher2/best-practices/2.0-2.4/optimize/docker/_index",
-                            "rancher2/best-practices/2.0-2.4/optimize/etcd/_index",
-                            "rancher2/best-practices/2.0-2.4/optimize/kubernetes/_index",
-                        ],
-                    },
-                    "rancher2/best-practices/2.0-2.4/use-in-china/_index",
-                ],
-            },
             {
                 type: "category",
-                label: "2.5",
+                label: "调优",
                 items: [
-                    "rancher2/best-practices/2.5/_index",
-                    {
-                        type: "category",
-                        label: "Rancher管理集群的最佳实践",
-                        items: [
-                            "rancher2/best-practices/2.5/rancher-managed/_index",
-                            "rancher2/best-practices/2.5/rancher-managed/containers/_index",
-                            "rancher2/best-practices/2.5/rancher-managed/logging/_index",
-                            "rancher2/best-practices/2.5/rancher-managed/managed-vsphere/_index",
-                            "rancher2/best-practices/2.5/rancher-managed/_index",
-                        ],
-                    },
-                    {
-                        type: "category",
-                        label: "Rancher Server 的最佳实践",
-                        items: [
-                            "rancher2/best-practices/2.5/rancher-server/deployment-strategies/_index",
-                            "rancher2/best-practices/2.5/rancher-server/deployment-types/_index",
-                            "rancher2/best-practices/2.5/rancher-managed/logging/_index",
-                            "rancher2/best-practices/2.5/rancher-server/rancher-in-vsphere/_index",
-                            "rancher2/best-practices/2.5/rancher-managed/_index",
-                        ],
-                    },
+                    "rancher2/best-practices/2.0-2.4/optimize/os/_index",
+                    "rancher2/best-practices/2.0-2.4/optimize/docker/_index",
+                    "rancher2/best-practices/2.0-2.4/optimize/etcd/_index",
+                    "rancher2/best-practices/2.0-2.4/optimize/kubernetes/_index",
                 ],
             },
+            "rancher2/best-practices/2.0-2.4/use-in-china/_index",
         ],
         系统管理员指南: [
             "rancher2/admin-settings/_index",
@@ -685,6 +614,19 @@ module.exports = {
                             "rancher2/cluster-admin/tools/istio/disabling-istio/_index",
                         ],
                     },
+                    //old logging, need to replace with new logging
+                    {
+                        type: "category",
+                        label: "日志",
+                        items: [
+                            "rancher2/cluster-admin/tools/logging/_index",
+                            "rancher2/cluster-admin/tools/logging/elasticsearch/_index",
+                            "rancher2/cluster-admin/tools/logging/fluentd/_index",
+                            "rancher2/cluster-admin/tools/logging/kafka/_index",
+                            "rancher2/cluster-admin/tools/logging/splunk/_index",
+                            "rancher2/cluster-admin/tools/logging/syslog/_index",
+                        ],
+                    },
                     {
                         type: "category",
                         label: "监控",
@@ -748,196 +690,6 @@ module.exports = {
             "rancher2/project-admin/pipelines/_index",
             "rancher2/project-admin/pod-security-policies/_index",
         ],
-        //todo: pipeline 从 k8s-in-rancher 用户指南中挪了出来作为独立章节, missing
-        流水线: [
-            "rancher2/pipelines/_index",
-            "rancher2/pipelines/concepts/_index",
-            "rancher2/pipelines/config/_index",
-            "rancher2/pipelines/example-repos/_index",
-            "rancher2/pipelines/example/_index",
-            "rancher2/pipelines/storage/_index",
-            "rancher2/pipelines/docs-for-v2.0.x/_index",
-        ],
-        HelmChart: [
-            "rancher2/helm-charts/app-marketplace/_index",
-            {
-                type: "category",
-                label: "旧版应用商店",
-                items: [
-                    "rancher2/helm-charts/legacy-catalogs/_index",
-                    "rancher2/helm-charts/legacy-catalogs/built-in/_index",
-                    "rancher2/helm-charts/legacy-catalogs/adding-catalogs/_index",
-                    "rancher2/helm-charts/legacy-catalogs/catalog-config/_index",
-                    "rancher2/helm-charts/legacy-catalogs/creating-apps/_index",
-                    "rancher2/helm-charts/legacy-catalogs/managing-apps/_index",
-                    "rancher2/helm-charts/legacy-catalogs/multi-cluster-apps/_index",
-                    "rancher2/helm-charts/legacy-catalogs/launching-apps/_index",
-                    "rancher2/helm-charts/legacy-catalogs/tutorial/_index",
-                    "rancher2/helm-charts/legacy-catalogs/globaldns/_index",
-                ],
-            },
-        ],
-        跨集群部署: [
-            "rancher2/deploy-across-clusters/_index",
-            "rancher2/deploy-across-clusters/fleet/_index",
-            "rancher2/deploy-across-clusters/multi-cluster-apps/_index",
-        ],
-        监控和告警: [
-            "rancher2/monitoring-alerting/_index",
-            {
-                type: "category",
-                label: "2.0-2.4",
-                items: [
-                    "rancher2/monitoring-alerting/2.0-2.4/_index",
-                    {
-                        type: "category",
-                        label: "集群告警",
-                        items: [
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-alerts/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-alerts/default-alerts/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-alerts/project-alerts/_index",
-                        ],
-                    },
-                    {
-                        type: "category",
-                        label: "集群监控",
-                        items: [
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/cluster-metrics/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/custom-metrics/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/expression/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/project-monitoring/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/prometheus/_index",
-                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/viewing-metrics/_index",
-                        ],
-                    },
-                    "rancher2/monitoring-alerting/2.0-2.4/notifiers/_index",
-                ],
-            },
-            {
-                type: "category",
-                label: "2.5",
-                items: [
-                    "rancher2/monitoring-alerting/2.5/_index",
-                    "rancher2/monitoring-alerting/2.5/configuration/_index",
-                    "rancher2/monitoring-alerting/2.5/migrating/_index",
-                    "rancher2/monitoring-alerting/2.5/rbac/_index",
-                ],
-            },
-        ],
-        Istio: [
-            "rancher2/istio/_index",
-            {
-                type: "category",
-                label: "2.3.x-2.4.x",
-                items: [
-                    "rancher2/istio/2.3.x-2.4.x/release-notes/_index",
-                    "rancher2/istio/2.3.x-2.4.x/_index",
-                    "rancher2/istio/2.3.x-2.4.x/resources/_index",
-                    {
-                        type: "category",
-                        label: "Istio指南",
-                        items: [
-                            "rancher2/istio/2.3.x-2.4.x/setup/_index",
-                            {
-                                type: "category",
-                                label: "1、在集群中启用istio",
-                                items: [
-                                    "rancher2/istio/2.3.x-2.4.x/setup/enable-istio-in-cluster/_index",
-                                    "rancher2/istio/2.3.x-2.4.x/setup/enable-istio-in-cluster/enable-istio-with-psp/_index",
-                                ],
-                            },
-                            "rancher2/istio/2.3.x-2.4.x/setup/enable-istio-in-namespace/_index",
-                            "rancher2/istio/2.3.x-2.4.x/setup/node-selectors/_index",
-                            "rancher2/istio/2.3.x-2.4.x/setup/deploy-workloads/_index",
-                            "rancher2/istio/2.3.x-2.4.x/setup/gateway/_index",
-                            "rancher2/istio/2.3.x-2.4.x/setup/set-up-traffic-management/_index",
-                            "rancher2/istio/2.3.x-2.4.x/setup/view-traffic/_index",
-                        ],
-                    },
-                    "rancher2/istio/2.3.x-2.4.x/disabling-istio/_index",
-                    "rancher2/istio/2.3.x-2.4.x/rbac/_index",
-                ],
-            },
-
-            {
-                type: "category",
-                label: "2.5",
-                items: [
-                    "rancher2/istio/2.5/release-notes/_index",
-                    "rancher2/istio/2.5/_index",
-                    "rancher2/istio/2.5/resources/_index",
-                    {
-                        type: "category",
-                        label: "Istio指南",
-                        items: [
-                            "rancher2/istio/2.5/setup/_index",
-                            "rancher2/istio/2.5/setup/enable-istio-in-cluster/_index",
-                            "rancher2/istio/2.5/setup/enable-istio-in-namespace/_index",
-                            "rancher2/istio/2.5/setup/deploy-workloads/_index",
-                            "rancher2/istio/2.5/setup/gateway/_index",
-                            "rancher2/istio/2.5/setup/set-up-traffic-management/_index",
-                            "rancher2/istio/2.5/setup/view-traffic/_index",
-                        ],
-                    },
-                    "rancher2/istio/2.5/rbac/_index",
-                    "rancher2/istio/2.5/disabling-istio/_index",
-                ],
-            },
-        ],
-        日志: [
-            "rancher2/logging/_index",
-            {
-                type: "category",
-                label: "2.0-2.4",
-                items: [
-                    "rancher2/logging/2.0.x-2.4.x/_index",
-                    {
-                        type: "category",
-                        label: "集群日志",
-                        items: [
-                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/_index",
-                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/elasticsearch/_index",
-                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/fluentd/_index",
-                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/kafka/_index",
-                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/splunk/_index",
-                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/syslog/_index",
-                        ],
-                    },
-                    "rancher2/logging/2.0.x-2.4.x/project-logging/_index",
-                ],
-            },
-            {
-                type: "category",
-                label: "2.5",
-                items: [
-                    "rancher2/logging/2.5/_index",
-                    "rancher2/logging/2.5/migrating/_index",
-                ],
-            },
-        ],
-        OPA_Gatekeeper: ["rancher2/opa-gatekeeper/_index"],
-        CIS扫描: [
-            "rancher2/cis-scans/_index",
-            {
-                type: "category",
-                label: "2.4",
-                items: [
-                    "rancher2/cis-scans/2.4/_index",
-                    "rancher2/cis-scans/2.4/skipped-tests/_index",
-                ],
-            },
-            {
-                type: "category",
-                label: "2.5",
-                items: [
-                    "rancher2/cis-scans/2.5/_index",
-                    "rancher2/cis-scans/2.5/configuration/_index",
-                    "rancher2/cis-scans/2.5/rbac/_index",
-                    "rancher2/cis-scans/2.5/skipped-tests/_index",
-                ],
-            },
-        ],
         用户指南: [
             "rancher2/k8s-in-rancher/_index",
             {
@@ -977,10 +729,6 @@ module.exports = {
             "rancher2/k8s-in-rancher/configmaps/_index",
             "rancher2/k8s-in-rancher/secrets/_index",
             "rancher2/k8s-in-rancher/registries/_index",
-            //TODO
-            //remove this pipelines-related stuff after merging from preview to master
-            //remove pipelines-related stuff in 'k8s-in-rancher' folder after merging from preview to master as well
-            /*
             {
                 type: "category",
                 label: "流水线",
@@ -994,112 +742,6 @@ module.exports = {
                     "rancher2/k8s-in-rancher/pipelines/docs-for-v2.0.x/_index",
                 ],
             },
-            */
-        ],
-        安全: [
-            "rancher2/security/_index",
-            "rancher2/security/security-scan/_index",
-            "rancher2/security/cve/_index",
-            {
-                type: "category",
-                label: "安全加固指南",
-                items: [
-                    "rancher2/security/hardening-2.4/_index",
-                    "rancher2/security/hardening-2.3.5/_index",
-                    "rancher2/security/hardening-2.3.3/_index",
-                    "rancher2/security/hardening-2.3/_index",
-                    "rancher2/security/hardening-2.2/_index",
-                    "rancher2/security/hardening-2.1/_index",
-                ],
-            },
-            {
-                type: "category",
-                label: "CIS自测指南",
-                items: [
-                    "rancher2/security/benchmark-2.4/_index",
-                    "rancher2/security/benchmark-2.3.5/_index",
-                    "rancher2/security/benchmark-2.3.3/_index",
-                    "rancher2/security/benchmark-2.3/_index",
-                    "rancher2/security/benchmark-2.2/_index",
-                    "rancher2/security/benchmark-2.1/_index",
-                ],
-            },
-        ],
-        Rancher命令行: ["rancher2/cli/_index"],
-        系统工具: ["rancher2/system-tools/_index"],
-        用户设置: [
-            "rancher2/user-settings/_index",
-            "rancher2/user-settings/api-keys/_index",
-            "rancher2/user-settings/node-templates/_index",
-            "rancher2/user-settings/cloud-credentials/_index",
-            "rancher2/user-settings/preferences/_index",
-        ],
-        API: [
-            "rancher2/api/_index",
-            "rancher2/api/api-tokens/_index",
-            "rancher2/api/api-resources/_index",
-            "rancher2/api/api-custom-cluster/_index",
-            "rancher2/api/api-import-cluster/_index",
-        ],
-        常见问题: [
-            "rancher2/faq/_index",
-            "rancher2/faq/deprecated-features-25x/_index",
-            "rancher2/faq/upgrades-to-2x/_index",
-            "rancher2/faq/kubectl/_index",
-            {
-                type: "category",
-                label: "网络",
-                items: [
-                    "rancher2/faq/networking/_index",
-                    "rancher2/faq/networking/cni-providers/_index",
-                    "rancher2/faq/networking/mtu/_index",
-                ],
-            },
-            "rancher2/faq/technical/_index",
-            "rancher2/faq/security/_index",
-            "rancher2/faq/telemetry/_index",
-            "rancher2/faq/removing-rancher/_index",
-            "rancher2/faq/etcd/_index",
-            "rancher2/faq/install/_index",
-        ],
-        常见故障排查: [
-            "rancher2/troubleshooting/_index",
-            {
-                type: "category",
-                label: "Kubernetes 组件",
-                items: [
-                    "rancher2/troubleshooting/kubernetes-components/_index",
-                    "rancher2/troubleshooting/kubernetes-components/etcd/_index",
-                    "rancher2/troubleshooting/kubernetes-components/controlplane/_index",
-                    "rancher2/troubleshooting/kubernetes-components/nginx-proxy/_index",
-                    "rancher2/troubleshooting/kubernetes-components/worker-and-generic/_index",
-                ],
-            },
-            "rancher2/troubleshooting/kubernetes-resources/_index",
-            "rancher2/troubleshooting/networking/_index",
-            "rancher2/troubleshooting/dns/_index",
-            "rancher2/troubleshooting/rancherha/_index",
-            "rancher2/troubleshooting/imported-clusters/_index",
-            "rancher2/troubleshooting/logging/_index",
-        ],
-        参与Rancher开源项目: ["rancher2/contributing/_index"],
-        版本迁移: [
-            "rancher2/v1.6-migration/_index",
-            "rancher2/v1.6-migration/kub-intro/_index",
-            "rancher2/v1.6-migration/get-started/_index",
-            {
-                type: "category",
-                label: "2、迁移服务",
-                items: [
-                    "rancher2/v1.6-migration/run-migration-tool/_index",
-                    "rancher2/v1.6-migration/run-migration-tool/migration-tools-ref/_index",
-                ],
-            },
-            "rancher2/v1.6-migration/expose-services/_index",
-            "rancher2/v1.6-migration/monitor-apps/_index",
-            "rancher2/v1.6-migration/schedule-workloads/_index",
-            "rancher2/v1.6-migration/discover-services/_index",
-            "rancher2/v1.6-migration/load-balancing/_index",
         ],
         应用商店: [
             "rancher2/catalog/_index",
@@ -1178,6 +820,235 @@ module.exports = {
             "rancher2/faq/removing-rancher/_index",
             "rancher2/faq/etcd/_index",
             "rancher2/faq/install/_index",
+        ],
+        跨集群部署: [
+            "rancher2/deploy-across-clusters/_index",
+            "rancher2/deploy-across-clusters/fleet/_index",
+            "rancher2/deploy-across-clusters/multi-cluster-apps/_index",
+        ],
+        HelmChart: [
+            "rancher2/helm-charts/legacy-catalogs/_index",
+            "rancher2/helm-charts/app-marketplace/_index",
+            {
+                type: "category",
+                label: "旧版应用商店",
+                items: [
+                    "rancher2/helm-charts/legacy-catalogs/_index",
+                    "rancher2/helm-charts/legacy-catalogs/built-in/_index",
+                    "rancher2/helm-charts/legacy-catalogs/adding-catalogs/_index",
+                    "rancher2/helm-charts/legacy-catalogs/catalog-config/_index",
+                    "rancher2/helm-charts/legacy-catalogs/creating-apps/_index",
+                    "rancher2/helm-charts/legacy-catalogs/managing-apps/_index",
+                    "rancher2/helm-charts/legacy-catalogs/multi-cluster-apps/_index",
+                    "rancher2/helm-charts/legacy-catalogs/launching-apps/_index",
+                    "rancher2/helm-charts/legacy-catalogs/tutorial/_index",
+                    "rancher2/helm-charts/legacy-catalogs/globaldns/_index",
+                ],
+            },
+        ],
+
+        监控和告警: [
+            "rancher2/monitoring-alerting/_index",
+            {
+                type: "category",
+                label: "2.0-2.4",
+                items: [
+                    "rancher2/monitoring-alerting/2.0-2.4/_index",
+                    {
+                        type: "category",
+                        label: "集群告警",
+                        items: [
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-alerts/_index",
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-alerts/default-alerts/_index",
+                            //need translations
+                            //"rancher2/monitoring-alerting/2.0-2.4/cluster-alerts/project-alerts/_index",
+                        ],
+                    },
+                    {
+                        type: "category",
+                        label: "集群监控",
+                        items: [
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/_index",
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/cluster-metrics/_index",
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/custom-metrics/_index",
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/expression/_index",
+                            //need translations
+                            //"rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/project-monitoring/_index",
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/prometheus/_index",
+                            "rancher2/monitoring-alerting/2.0-2.4/cluster-monitoring/viewing-metrics/_index",
+                        ],
+                    },
+                    "rancher2/monitoring-alerting/2.0-2.4/notifiers/_index",
+                ],
+            },
+            {
+                type: "category",
+                label: "2.5",
+                items: [
+                    "rancher2/monitoring-alerting/2.5/_index",
+                    "rancher2/monitoring-alerting/2.5/configuration/_index",
+                    "rancher2/monitoring-alerting/2.5/migrating/_index",
+                    "rancher2/monitoring-alerting/2.5/rbac/_index",
+                ],
+            },
+        ],
+        Istio: [
+            "rancher2/istio/_index",
+            {
+                type: "category",
+                label: "2.3.x-2.4.x",
+                items: [
+                    "rancher2/istio/2.3.x-2.4.x/release-notes/_index",
+                    "rancher2/istio/2.3.x-2.4.x/_index",
+                    "rancher2/istio/2.3.x-2.4.x/resources/_index",
+                    {
+                        type: "category",
+                        label: "Istio指南",
+                        items: [
+                            "rancher2/istio/2.3.x-2.4.x/setup/_index",
+                            {
+                                type: "category",
+                                label: "1、在集群中启用istio",
+                                items: [
+                                    "rancher2/istio/2.3.x-2.4.x/setup/enable-istio-in-cluster/_index",
+                                    "rancher2/istio/2.3.x-2.4.x/setup/enable-istio-in-cluster/enable-istio-with-psp/_index",
+                                ],
+                            },
+                            "rancher2/istio/2.3.x-2.4.x/setup/enable-istio-in-namespace/_index",
+                            "rancher2/istio/2.3.x-2.4.x/setup/node-selectors/_index",
+                            "rancher2/istio/2.3.x-2.4.x/setup/deploy-workloads/_index",
+                            "rancher2/istio/2.3.x-2.4.x/setup/gateway/_index",
+                            "rancher2/istio/2.3.x-2.4.x/setup/set-up-traffic-management/_index",
+                            "rancher2/istio/2.3.x-2.4.x/setup/view-traffic/_index",
+                        ],
+                    },
+                    "rancher2/istio/2.3.x-2.4.x/disabling-istio/_index",
+                    "rancher2/istio/2.3.x-2.4.x/rbac/_index",
+                ],
+            },
+
+            {
+                type: "category",
+                label: "2.5",
+                items: [
+                    "rancher2/istio/2.5/release-notes/_index",
+                    "rancher2/istio/2.5/_index",
+                    "rancher2/istio/2.5/resources/_index",
+                    {
+                        type: "category",
+                        label: "Istio指南",
+                        items: [
+                            "rancher2/istio/2.5/setup/_index",
+                            "rancher2/istio/2.5/setup/enable-istio-in-cluster/_index",
+                            "rancher2/istio/2.5/setup/enable-istio-in-namespace/_index",
+                            "rancher2/istio/2.5/setup/deploy-workloads/_index",
+                            "rancher2/istio/2.5/setup/gateway/_index",
+                            "rancher2/istio/2.5/setup/set-up-traffic-management/_index",
+                            "rancher2/istio/2.5/setup/view-traffic/_index",
+                        ],
+                    },
+                    "rancher2/istio/2.5/rbac/_index",
+                    "rancher2/istio/2.5/disabling-istio/_index",
+                ],
+            },
+        ],
+        //TODO: remove comment after translation of 2.5 docs is done, it possibly needs to readjust its position in sidebar
+
+        日志: [
+            "rancher2/logging/_index",
+            {
+                type: "category",
+                label: "2.0-2.4",
+                items: [
+                    "rancher2/logging/2.0.x-2.4.x/_index",
+                    {
+                        type: "category",
+                        label: "集群日志",
+                        items: [
+                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/_index",
+                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/elasticsearch/_index",
+                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/fluentd/_index",
+                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/kafka/_index",
+                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/splunk/_index",
+                            "rancher2/logging/2.0.x-2.4.x/cluster-logging/syslog/_index",
+                        ],
+                    },
+                    //need translations
+                    //"rancher2/logging/2.0.x-2.4.x/project-logging/_index",
+                ],
+            },
+            {
+                type: "category",
+                label: "2.5",
+                items: [
+                    "rancher2/logging/2.5/_index",
+                    "rancher2/logging/2.5/migrating/_index",
+                ],
+            },
+        ],
+
+        CIS扫描: [
+            "rancher2/cis-scans/_index",
+            //need translations
+            /*
+            {
+                type: "category",
+                label: "2.4",
+                items: [
+                    "rancher2/cis-scans/2.4/_index",
+                    "rancher2/cis-scans/2.4/skipped-tests/_index",
+                ],
+            },
+            */
+            {
+                type: "category",
+                label: "2.5",
+                items: [
+                    "rancher2/cis-scans/2.5/_index",
+                    "rancher2/cis-scans/2.5/configuration/_index",
+                    "rancher2/cis-scans/2.5/rbac/_index",
+                    "rancher2/cis-scans/2.5/skipped-tests/_index",
+                ],
+            },
+        ],
+        常见故障排查: [
+            "rancher2/troubleshooting/_index",
+            {
+                type: "category",
+                label: "Kubernetes 组件",
+                items: [
+                    "rancher2/troubleshooting/kubernetes-components/_index",
+                    "rancher2/troubleshooting/kubernetes-components/etcd/_index",
+                    "rancher2/troubleshooting/kubernetes-components/controlplane/_index",
+                    "rancher2/troubleshooting/kubernetes-components/nginx-proxy/_index",
+                    "rancher2/troubleshooting/kubernetes-components/worker-and-generic/_index",
+                ],
+            },
+            "rancher2/troubleshooting/kubernetes-resources/_index",
+            "rancher2/troubleshooting/networking/_index",
+            "rancher2/troubleshooting/dns/_index",
+            "rancher2/troubleshooting/rancherha/_index",
+            "rancher2/troubleshooting/imported-clusters/_index",
+            "rancher2/troubleshooting/logging/_index",
+        ],
+        参与Rancher开源项目: ["rancher2/contributing/_index"],
+        版本迁移: [
+            "rancher2/v1.6-migration/_index",
+            "rancher2/v1.6-migration/kub-intro/_index",
+            "rancher2/v1.6-migration/get-started/_index",
+            {
+                type: "category",
+                label: "2、迁移服务",
+                items: [
+                    "rancher2/v1.6-migration/run-migration-tool/_index",
+                    "rancher2/v1.6-migration/run-migration-tool/migration-tools-ref/_index",
+                ],
+            },
+            "rancher2/v1.6-migration/expose-services/_index",
+            "rancher2/v1.6-migration/monitor-apps/_index",
+            "rancher2/v1.6-migration/schedule-workloads/_index",
+            "rancher2/v1.6-migration/discover-services/_index",
+            "rancher2/v1.6-migration/load-balancing/_index",
         ],
     },
     rke: {

@@ -123,7 +123,7 @@ OPA 提供了一种声明性语言，您可以使用代码来定义策略，并�
 - 执行单元测试
 - 执行回归测试
 
-更多详情，请参阅[流水线](/docs/rancher2/pipelines/_index)文档。
+更多详情，请参阅[流水线](/docs/rancher2/k8s-in-rancher/pipelines/_index)文档。
 
 ### 告警
 
@@ -155,7 +155,7 @@ Rancher 支持与以下日志收集目标服务集成：
 - Syslog
 - Fluentd
 
-关于更多集群日志详情，请参阅[集群日志](/docs/rancher2/logging/2.0.x-2.4.x/project-logging/_index)文档，项目日志请参阅[项目日志](/docs/rancher2/project-admin/tools/logging/_index)文档
+关于更多集群日志详情，请参阅[集群日志](/docs/rancher2/cluster-admin/tools/logging/_index)文档，项目日志请参阅[项目日志](/docs/rancher2/project-admin/tools/logging/_index)文档
 
 ### 监控
 
